@@ -1,5 +1,5 @@
 Student: Assel Nurzhankyzy <br>
 Group: IT-2514 <br>
 
-Structure of my file: <br>
+Path of task: <br>
 ` main/src/main.java `
