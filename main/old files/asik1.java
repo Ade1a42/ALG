@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // 1
 public static int nSequenceSum(int n){
     if ( n == 0 ) { return 0; }
@@ -51,25 +53,23 @@ public static void reverseSequence(int n, Scanner sc){
 
 
 
-
-
 public static void main(String[] args) {
-//    System.out.println(nSequenceSum(4));
+    System.out.println(nSequenceSum(4));
 
 
 
 
-//    int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-//    System.out.println(Nsum(array, 10));
+    int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    System.out.println(Nsum(array, 10));
 
 
 
-//    System.out.println(n_of_b(4,3));
+    System.out.println(n_of_b(4,3));
 
 
 
-//    Scanner sc = new Scanner(System.in);
-//    reverseSequence(sc.nextInt(), sc);
+    Scanner sc = new Scanner(System.in);
+    reverseSequence(sc.nextInt(), sc);
 
 }
 
